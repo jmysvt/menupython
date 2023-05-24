@@ -13,3 +13,13 @@ print("""Escolha um dos seguintes cálculos:
 [3] Calculadora aritmética de binários, que contemple  as operações de soma e subtração."""
       )
 print("-" * 54)
+
+opnum = int(input("Digite a sua escolha:"))
+
+if opnum == 1:
+  print("{} Em decimal convertido para binário é: {}".format(
+    numint, bin(numint)))
+
+if opnum == 1:
+  print("{} Em decimal convertido para octadecimal é: {}".format(
+    numint, oct(numint)))
