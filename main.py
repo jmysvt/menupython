@@ -23,3 +23,11 @@ if opnum == 1:
 if opnum == 1:
   print("{} Em decimal convertido para octadecimal é: {}".format(
     numint, oct(numint)))
+
+    elif opnum == 2:
+  print("{} Em binário convertido para decimal é: {}".format(
+    bin(numint), numint))
+
+if opnum == 2:
+  print("{} Em octadecimal convertido para deciaml é: {}".format(
+    oct(numint), numint))
